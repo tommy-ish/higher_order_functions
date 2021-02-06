@@ -7,11 +7,11 @@ gem 'higher_order_functions'
 ```
 And then execute:
 ```console
-bundle install
+$ bundle install
 ```
 Or install it yourself as:
 ```console
-gem install higher_order_functions
+$ gem install higher_order_functions
 ```
 ## Usage
 ```rb
