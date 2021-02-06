@@ -7,7 +7,7 @@ gem 'higher_order_functions'
 ```
 And then execute:
 ```console
-$ bundle install
+bundle install
 ```
 Or install it yourself as:
 ```console
@@ -16,8 +16,8 @@ $ gem install higher_order_functions
 ## Usage
 ```rb
 3.unfold(proc { |x| x.zero? }, proc { |x| x }) { |n| n - 1 } # [3, 2, 1]
-1.sequence { |x| x + 2 }.take(10) # [1, 3, 6, 10, 15, 21, 28, 36, 45, 55]
-[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].scan { |result, item| result + item }
+1.sequence { |x| x + 2 }.take(10) # [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].scan { |result, item| result + item } # [1, 3, 6, 10, 15, 21, 28, 36, 45, 55]
 [1, 2, 3].inject_right { |result, item| item + result } # 6
 ```
 ## Development
