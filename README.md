@@ -11,7 +11,7 @@ bundle install
 ```
 Or install it yourself as:
 ```console
-$ gem install higher_order_functions
+gem install higher_order_functions
 ```
 ## Usage
 ```rb
